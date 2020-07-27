@@ -1,0 +1,11 @@
+<div class="timerApp">
+  <div class="row1">
+    <app-display-counter [timerValue]="timerValue"></app-display-counter>
+    <app-control-counter (onTextEntered)="updateTimerValue($event)" (onStartPressed)="updateStartPressed($event)"
+      (onPausePressed)="updatePausePressed($event)" (resetTimeStamp)="resetTimeStamp($event)"></app-control-counter>
+  </div>
+  <div class="row2">
+    <app-log-timestamp [timestamps]="timestamps"></app-log-timestamp>
+    <app-count-clicks [startValue]="startValue" [pauseValue]="pauseValue"></app-count-clicks>
+  </div>
+</div>

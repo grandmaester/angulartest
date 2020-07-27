@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Tejas",
+    "class": 10,
+    "section": "A",
+    "english": 75,
+    "maths": 90,
+    "science": 80
+  },
+  {
+    "name": "Rohit",
+    "class": 10,
+    "section": "B",
+    "english": 70,
+    "maths": 80,
+    "science": 90
+  },
+  {
+    "name": "Rajath",
+    "class": 10,
+    "section": "A",
+    "english": 80,
+    "maths": 95,
+    "science": 10
+  },
+  {
+    "name": "Arbaz",
+    "class": 10,
+    "section": "B",
+    "english": 95,
+    "maths": 90,
+    "science": 50
+  },
+  {
+    "name": "Pandey",
+    "class": 10,
+    "section": "A",
+    "english": 70,
+    "maths": 80,
+    "science": 60
+  },
+  {
+    "name": "Sushmitha",
+    "class": 10,
+    "section": "B",
+    "english": 80,
+    "maths": 70,
+    "science": 90
+  }
+]

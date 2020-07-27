@@ -1,0 +1,3 @@
+<div *ngIf="timestamps && timestamps.length > 0" class="timestamp">
+  <p *ngFor="let time of timestamps">{{ time.event }} at {{ time.time }}</p>
+</div>

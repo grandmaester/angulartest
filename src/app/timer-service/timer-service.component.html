@@ -1,0 +1,23 @@
+<div class="timerApp">
+  <div class="row1">
+    <div class="timer">
+      <h3>Count Down Timer</h3>
+      <h1 *ngIf="counter">{{counter | timeFormat}}</h1>
+    </div>
+    <div class="controlTimer">
+      <h6>Enter Timer Limit</h6>
+      <input type="number" [(ngModel)]="counter">
+      <button type="button" (click)="startTimer()">{{ !countDown ? 'Start' : 'Pause' }}</button>
+      <button type="button" (click)="resetTimer()">Reset</button>
+    </div>
+  </div>
+  <div class="row2">
+    <div *ngIf="startValue || pauseValue" class="clickCounter">
+      <h3>{{ startValue }} Started</h3>
+      <h3>{{ pauseValue }} Paused</h3>
+    </div>
+    <div *ngIf="timestamps.length > 0" class="timestamp">
+      <p *ngFor="let time of timestamps">{{ time.event }} at {{ time.time }}</p>
+    </div>
+  </div>
+</div>

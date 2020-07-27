@@ -1,2 +1,27 @@
-# angulartest
-Angular  App with  Lazy loading  in place and with good look and feel :   1.       An app with 5 different routes 2.       Route-1 :  To show the Look and feel of the  CSS-1.png  3.       Route-2:  An e-commerce category page  which displays   40 products  in  a page  with  Grid View / List View   and  with Price filters  as drop downs  e.g Grid view  4 items per row,  List view 1 item per row 4.       Route-3 : A count down timer page  with  four  sibling components  in it,   ------ Solve this  timer app   by using    Input  and Output   Decorators         Component-1 – Display the countdown timer          Component-2  -  Takes  input  of  Timer limit  with  Start/Pause and reset  functionality           Component-3  -  Logs  the time stamps   Button clicks  of  start or pause  or reset         Component-4  -  Keeps  a count  of   Clicks of   Start  and Pause  functionality                Upon  entering  2000, in  component-2  and clicking on start,   the  component -1 should  start  a countdown timer  from 2000, 1999, 1998  …   component-3  keeps a log of time stamps , component-4  keeps track of  clicks   5.        Route-4 :  Same  Timer  app    instead  of  Using  Input and output  decorators  do it  by using  Service.   6.       Route-5 :   A  Simple  Student  marks  table  dynamically  populated  from its keys  and    sort functionality  on their  Headings.     Upon first click  sort  the data Ascending ,   Upon second click  sort the data in descending ,  upon  the third click   reset the data  to initially received data.
+# Dashboard
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.3.
+
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

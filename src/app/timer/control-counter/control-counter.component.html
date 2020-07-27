@@ -1,0 +1,6 @@
+<div class="controlTimer">
+  <h6>Enter Timer Limit</h6>
+  <input type="number" [(ngModel)]="timerLimit" (keyup)="updateCounter()">
+  <button type="button" (click)="startTimer()">{{ !timerObject ? 'Start' : 'Pause' }}</button>
+  <button type="button" (click)="resetTimer()">Reset</button>
+</div>

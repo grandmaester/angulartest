@@ -1,0 +1,15 @@
+<div class="container">
+  <button (click)="gridView()"><i class="fa fa-th-large"></i></button>
+  <button (click)="listView()"><i class="fa fa-bars"></i></button>
+  <select id="price" (change)="filterPrice()">
+    <option value="asc">Price - Low to High</option>
+    <option value="desc">Price - High to low</option>
+  </select>
+  <br />
+  <div class="row">
+    <div *ngFor="let product of productList" class="column">
+      {{product.name}}
+      - {{product.Price}}
+    </div>
+  </div>
+</div>

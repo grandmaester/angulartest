@@ -1,0 +1,29 @@
+.row1, .row2 {
+  display: inline-flex;
+}
+.timerApp {
+  border: 1px solid black;
+  padding: 10px;
+}
+.controlTimer {
+  height: 100%;
+  margin-left: 10px;
+  padding: 5px;
+}
+.clickCounter {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  display: inline-flex;
+}
+h3 {
+  margin: 5px;
+}
+.timer {
+  padding: 5px;
+  width: 300px;
+}
+p {
+  margin: 10px;
+  font-size: 10px;
+}
